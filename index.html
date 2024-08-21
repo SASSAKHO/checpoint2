@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#travail">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <h1>Bienvenue sur mon portfolio</h1>
+        <p>Bonjour ! Je suis ravi de vous accueillir sur mon portfolio. Découvrez mes projets et mon expérience professionnelle.</p>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos">
+        <h2>À propos de moi</h2>
+        <p>Je suis un développeur web passionné avec peu d annes  d'expérience mais je suis determiner. J'aime créer des sites web dynamiques et interactifs pour aider les gens .</p>
+        <img src="Image_20220914_204354_589.jpeg" alt="Ma photo" width="150">
+        <p>Voici une photo de moi.</p>
+    </section>
+
+    <!-- Section Travail -->
+    <section id="travail">
+        <h2>Mon travail</h2>
+        <p>Voici quelques projets récents que j'ai réalisés :</p>
+        <ul>
+            <li><a href="projet1.html">Projet 1</a> - Description du Projet monteur video</li>
+            <li><a href="projet2.html">Projet 2</a> - Description du Projet creation de site</li>
+            <li><a href="projet3.html">Projet 3</a> - Description du Projet moteur video</li>
+        </ul>
+        <video controls width="600">
+            <source src="intro1668275349112.mp4"
+        </video>
+    </section>
+
+    <!-- Section CV -->
+    <section id="cv">
+        <h2>Mon CV</h2>
+        <p>Téléchargez mon CV en format PDF :</p>
+        <a href="curriculum.pdf" download>Télécharger le CV</a>
+        <h3>Expérience Professionnelle</h3>
+        <table border="1">
+            <caption>Expérience Professionnelle</caption>
+            <thead>
+                <tr>
+                    <th>Année</th>
+                    <th>Poste</th>
+                    <th>Entreprise</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2020-2023</td>
+                    <td>Développeur </td>
+                    <td>Entreprise </td>
+                </tr>
+                <tr>
+                    <td>2018-2020</td>
+                    <td>Développeur </td>
+                    <td>Entreprise </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="traitement-formulaire.php" method="post">
+            <label for="sas">Nom :</label>
+            <input type="text" id="sas" name="sas" required>
+            <br>
+            <label for="sassakho2009@gmail.com">Email :</label>
+            <input type="sassakho2009@gmail.com" id="sassakho2009@gmail.com" name="sassakho2009@gmail.com" >
+            <br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" ></textarea>
+            <br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #ADD8E6; /* Bleu clair */
+    }
+    /* Autres styles... */
+</style>
